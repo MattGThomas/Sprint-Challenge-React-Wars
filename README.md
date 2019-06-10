@@ -24,13 +24,21 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [X] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+  A library for JS used to make webpages and creating reusable components. Updating and making changes to a webpage, this is simple with react because of a process called 'reconciliation'. Basically, reconciliation is a process where the render method is called after the initial call because data has changed. This process then generates a minimal amount of changes that will be applied to the Dom.
 
-- [ ] Describe state.
+- [X] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+  Thinking in react is breaking down a project to multiple components and then building down each component while keeping in mind the heirarchy of what the project would look like if it were to be built like a chart
+
+- [X] Describe state.
+
+  Javascript Object which holds information used to change the information displayed on screen, state is can be changed and updated through the component
+
+- [X] Describe props.
+
+  Javascript object, also holds information which is used to change information on screen, however, props is used to pass information to components
 
 ## Project Set Up
 
