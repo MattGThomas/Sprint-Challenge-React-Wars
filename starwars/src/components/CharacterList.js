@@ -3,7 +3,7 @@ import Character from './Character';
 
 const CharacterList = props => {
     return (
-        <div>
+        <div className='listContainer'>
             {props.characters.map((char, index) => {
                 return <Character
                     componentDidMount = {props.componentDidMount}

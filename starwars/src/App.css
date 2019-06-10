@@ -6,3 +6,16 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.listContainer {
+  /* background: red; */
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.charContainer {
+  border: 1px dashed white;
+  width: 45%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  color: white;
+}
